@@ -1,12 +1,18 @@
 body{
     background: #fe909b;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
 }
-.pass-time{
-    color:white;
-    font-size:12px;
-    line-height: 20px;
-    margin:0 auto;
+.pass-time {
+    color: #f8f9fa; /* Soft white */
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 auto;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 div#content {

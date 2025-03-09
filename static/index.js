@@ -1,5 +1,13 @@
 window.addEventListener("load", () => {
     new Container(config.wish, config.time, config.texts);
+
+    let audio = document.querySelector(".song-audio-autoplay");
+
+    if (audio) {
+        audio.play().catch(error => {
+            console.log("Autoplay prevented. User interaction needed.");
+        });
+    }
 });
 
 function Container(wish, time, texts) {
